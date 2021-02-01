@@ -15,25 +15,217 @@
   <script src="https://unpkg.com/vue@next"></script>
 </head>
 
-<body>
+<body class="transform-none " style="background-color: #f6f6f6;">
+  <nav class="top-0 bg-white relative left-0 fixed right-0 z-30 grid grid-cols-8"
+    style="transform: translateY(0px); min-height: 60px; box-shadow: inset 0 -1px 0 0 #fff, 0 1px 5px rgb(0 0 0 / 10%);">
+    <div style="opacity: 0; transform: scaleY(1);"></div>
+    <div class="items-stretch w-full max-w-6xl m-auto" style="min-height: 60px;">
+      <div class="items-stretch flex flex-shrink-0" style="min-height: 3.25rem;">
+        <a class="items-center flex text-base flex-grow-0 flex-shrink-0 leading-normal ml-40 pt-2 pr-2.5 pb-2  relative no-underline bg-transparent cursor-pointer"
+          style="color: #4a4a4a; box-sizing: inherit;" href="index.html">
+          <img src="https://vuejsexamples.com/assets/favicon.png?vue" width="38" height="38">
+        </a>
+        <a class="items-center flex text-base flex-grow-0 flex-shrink-0 leading-normal mr-1 pt-2 pr-2.5 pb-2 pl-2.5 relative no-underline bg-transparent cursor-pointer"
+          style="color: #4a4a4a; box-sizing: inherit;" href="index.html">
+          <p class="hover:text-blue-500">Vue.js Examples</p>
+        </a>
+        <a class="items-center flex text-base flex-grow-0 flex-shrink-0 leading-normal mr-2 pt-2 pr-2.5 pb-2 pl-2.5 relative no-underline bg-transparent cursor-pointer"
+          style="color: #4a4a4a; box-sizing: inherit;" href="index.html">
+          <p class="hover:text-blue-500 mr-1">Ui</p>
+          <span class="material-icons text-blue-500">
+            keyboard_arrow_down
+          </span>
+        </a>
+        <a class="items-center flex text-base flex-grow-0 flex-shrink-0 leading-normal mr-2  pt-2 pr-2.5 pb-2 pl-2.5 relative no-underline bg-transparent cursor-pointer"
+          style="color: #4a4a4a; box-sizing: inherit;" href="index.html">
+          <p class="hover:text-blue-500 mr-1">Media</p>
+          <span class="material-icons text-blue-500">
+            keyboard_arrow_down
+          </span>
+        </a>
+        <a class="items-center flex text-base flex-grow-0 flex-shrink-0 leading-normal mr-2  pt-2 pr-2.5 pb-2 pl-2.5 relative no-underline bg-transparent cursor-pointer"
+          style="color: #4a4a4a; box-sizing: inherit;" href="index.html">
+          <p class="hover:text-blue-500 mr-1">Element</p>
+          <span class="material-icons text-blue-500">
+            keyboard_arrow_down
+          </span>
+        </a>
+        <a class="items-center flex text-base flex-grow-0 flex-shrink-0 leading-normal mr-2  pt-2 pr-2.5 pb-2 pl-2.5 relative no-underline bg-transparent cursor-pointer"
+          style="color: #4a4a4a; box-sizing: inherit;" href="index.html">
+          <p class="hover:text-blue-500 mr-1">Input</p>
+          <span class="material-icons text-blue-500">
+            keyboard_arrow_down
+          </span>
+        </a>
+        <a class="items-center flex text-base flex-grow-0 flex-shrink-0 leading-normal mr-2  pt-2 pr-2.5 pb-2 pl-2.5 relative no-underline bg-transparent cursor-pointer"
+          style="color: #4a4a4a; box-sizing: inherit;" href="index.html">
+          <p class="hover:text-blue-500 mr-1">Menu</p>
+          <span class="material-icons text-blue-500">
+            keyboard_arrow_down
+          </span>
+        </a>
+        <a class="items-center flex text-base flex-grow-0 flex-shrink-0 leading-normal mr-2  pt-2 pr-2.5 pb-2 pl-2.5 relative no-underline bg-transparent cursor-pointer"
+          style="color: #4a4a4a; box-sizing: inherit;" href="index.html">
+          <p class="hover:text-blue-500 mr-1">Component</p>
+          <span class="material-icons text-blue-500">
+            keyboard_arrow_down
+          </span>
+        </a>
+        <a class="items-center flex text-base flex-grow-0 flex-shrink-0 leading-normal  relative no-underline bg-transparent cursor-pointer"
+          style="color: #4a4a4a; box-sizing: inherit;" href="index.html">
+          <p class="hover:text-blue-500 mr-1">More</p>
+          <span class="material-icons text-blue-500">
+            keyboard_arrow_down
+          </span>
+        </a>
 
-  <div id="app" class="mx-auto h-screen max-w-2xl bg-indigo-200">
-      <p class="text-pink-500 text-lg uppercase tracking-wide font-semibold">introduction</p>
-      <h1 class="text-5xl font-extrabold ml-5">Tailwind stories</h1>
-      
-      <div class="flex justify-center items-center">
-      <div class="rounded-full p-1 border be-gradient-to-tr from-yellow-400 to-pink-500">
-        <img class="h-24 w-24 rounded-full flex items-center" src="images/attackOnTitan.jpeg">
-        
-      
+        <div
+          class=" items-center flex text-base flex-grow-0 flex-shrink-0  relative no-underline bg-transparent cursor-pointer absolute top-3 left-10 z-20 box-border text-xs w-64 h-8 leading-normal "
+          style="border: 1px solid #ddd; border-radius: 20px; color: #666; opacity: .5;">
+          <input type="text" name="search">
+          <span class="ml-10 material-icons text-gray-400">
+            search
+          </span>
+        </div>
+  </nav>
+  <div class="m-8">
+  </div>
+
+
+  <div class="grid grid-cols-5 ml-10">
+    <p></p>
+    <div class="pr-2 bg-white">
+      <a href="index.html">
+        <img src="https://vuejsexamples.com/content/images/2021/01/vue-qrcode.jpg" />
+      </a>
+    </div>
+    <div class="my-0 -mr-8 -ml-6  bg-white pr-2">
+      <a href="index.html" class=" font-bold text-white text-xs rounded-full py-0.5 px-2"
+        style="background-color: #2ec4b6;">
+        QR Code
+      </a>
+      <a href="index.html" class="text-2xl font-medium ">
+        <p>QR code component for Vue 3 bases on node-qrcode</p>
+      </a>
+      <p class="text-gray-400 tex-xs mt-2  font-light">QR code component for Vue 3, bases on node-qrcode.</p>
+      <p class="font-medium  text-xs mt-1" style="color: #738a94;">31 JANUARY 2021</p>
     </div>
   </div>
 
+  <div class="mt-4"></div>
+
+  <div class="grid grid-cols-5 ml-10">
+    <p></p>
+    <div class="pr-6 bg-white">
+      <a href="index.html">
+        <img src="https://vuejsexamples.com/content/images/2021/01/vue-google-maps.jpg" />
+      </a>
+    </div>
+    <div class="my-0 -mr-8 -ml-6  bg-white pr-2">
+      <a href="index.html" class=" font-bold text-white text-xs rounded-full py-0.5 px-2"
+        style="background-color: #2ec4b6;">
+        Maps
+      </a>
+      <a href="index.html" class="text-2xl font-medium ">
+        <p>Vue.js 3 components for Google maps</p>
+      </a>
+      <p class="text-gray-400 tex-xs mt-2  font-light">vue.js 3 components for Google maps.</p>
+      <p class="font-medium  text-xs mt-1" style="color: #738a94;">30 JANUARY 2021</p>
+    </div>
   </div>
 
+  <div class="mt-4"></div>
+
+  <div class="grid grid-cols-5 ml-10">
+    <p></p>
+    <div class="pr-8 bg-white ">
+      <a href="index.html">
+        <img src="https://vuejsexamples.com/content/images/2021/01/zvueresizable.gif" />
+      </a>
+    </div>
+    <div class="my-0 -mr-8 -ml-6  bg-white pr-2">
+      <a href="index.html" class=" font-bold text-white text-xs rounded-full py-0.5 px-2"
+        style="background-color: #2ec4b6;">
+        Resize
+      </a>
+      <a href="index.html" class="text-2xl font-medium ">
+        <p>Vue component that allows you to resize and drag elements</p>
+      </a>
+      <p class="text-gray-400 tex-xs mt-2  font-light">Vue component that allows you to resize and drag elements.</p>
+      <p class="font-medium  text-xs mt-1" style="color: #738a94;">29 JANUARY 2021</p>
+    </div>
+  </div>
+
+  <div class="mt-4"></div>
+
+  <div class="grid grid-cols-5 ml-10">
+    <p></p>
+    <div class="pr-8  bg-white">
+      <a href="index.html">
+        <img src="https://vuejsexamples.com/content/images/2021/01/Vue-Image-Kit.jpg" />
+      </a>
+    </div>
+    <div class="my-0 -mr-8 -ml-6  bg-white pr-2">
+      <a href="index.html" class=" font-bold text-white text-xs rounded-full py-0.5 px-2"
+        style="background-color: #2ec4b6;">
+        Image
+      </a>
+      <a href="index.html" class="text-2xl font-medium ">
+        <p>Vue.js Image Kit Component with Lazy Load built in and Responsive Images</p>
+      </a>
+      <p class="text-gray-400 tex-xs mt-2  font-light">Vue.js Image Kit Component with Lazy Load built in and Responsive
+        Images.</p>
+      <p class="font-medium  text-xs mt-1" style="color: #738a94;">26 JANUARY 2021</p>
+    </div>
+  </div>
+
+  <div class="mt-4"></div>
+
+  <div class="grid grid-cols-5 ml-10">
+    <p></p>
+    <div class="pr-10 bg-white">
+      <a href="index.html">
+        <img src="https://vuejsexamples.com/content/images/2021/01/Vue-Promise-Dialogs.gif" />
+      </a>
+    </div>
+    <div class="my-0 -mr-8 -ml-6  bg-white pr-2">
+      <a href="index.html" class=" font-bold text-white text-xs rounded-full py-0.5 px-2"
+        style="background-color: #2ec4b6;">
+        Dialog
+      </a>
+      <a href="index.html" class="text-2xl font-medium ">
+        <p>A tiny library that allows you to work with dialogs as with asynchronous functions</p>
+      </a>
+      <p class="text-gray-400 tex-xs mt-2  font-light">A tiny & modern library that allows you to work with dialogs as
+        with asynchronous functions.</p>
+      <p class="font-medium  text-xs mt-1" style="color: #738a94;">25 JANUARY 20211</p>
+    </div>
+
+  </div>
+
+  <div class="ml-96 mt-16 mb-52">
+    <div class="ml-96">
+    <a href="index.html" class=" font-medium text-white text-center text-base rounded-full py-4 px-10"
+        style="background-color: #2ec4b6;">
+        Load More
+      </a>
+      
+    </div>
+</div>
+
+    
 
 
-  <!-- my main.js -->
+
+
+
+
+
+
+
+
+
+  <!-- my main.js  -->
   <script src="./main.js"></script>
 
 </body>
